@@ -4,11 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video width="100%" height="100%" controls>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <header>
+        <div class="header_wrapper">
+            <div class="content">
+                <a href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo" target="_blank">
+                <img src="./fotos/sasha.jpg" alt="" class="sasha_img">
+                <p class="sasha_name">Alexandr Tretyakov</p>
+                <p class="sasha_v">Videographer</p>
+                </a>
+            </div>
+        </div>
+        <nav class="navigation">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <ul class="links navigation_links">
+                <li class="link"><a href=""><p class="nav_links">HOME</p></a></li>
+                <li class="link"><a href="about.html"><p class="nav_links">ABOUT</p></a></li>
+                <li class="link"><a href=""><p class="nav_links">WORKS</p></a></li>
+                <li class="link2"><a href=""><p class="nav_links">CONTACT</p></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <video width="100%" height="100%" controls>
+            <source src="./fotos/PROJEXT BMW M3_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_content">
+                <p class="footer_contact">Contact Me <br>  👇</p>
+                <ul class="footer_links">
+                    <li class="footer_link"><a href="" target="_blank">
+                        <svg class="i1">
+                            <use xlink:href="./fotos/email.svg#email"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer_link"><a href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo" target="_blank">
+                        <svg class="i2">
+                            <use xlink:href="./fotos/inst.svg#inst"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer_link"><a href="https://www.tiktok.com/@tretiakov_production?_t=8s6cWEUKdGQ&_r=1" target="_blank">
+                        <svg class="i3">
+                            <use xlink:href="./fotos/tt.svg#tt" class="i3"></use>
+                        </svg>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
