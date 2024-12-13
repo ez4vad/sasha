@@ -147,12 +147,14 @@ use {
 .footer_contact {
     color: white;
     text-align: center;
-    font-family: fantasy;
-    font-size: 36px;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-right: 10px;
     margin-top: 80px;
-    text-shadow: 1px 10px 2px black, 0 0 1em rgb(255, 255, 255);
+    text-shadow: 1px 10px 2px black, 0 0 5px rgb(218, 213, 213);
     border: 0px;
-    
+    margin-bottom: 20px;
+    border-top: 1px solid white;
 }
 .i1 {
     margin-right: 20px;
@@ -337,11 +339,14 @@ use {
     .footer_contact {
         color: white;
         text-align: center;
-        font-family: fantasy;
-        font-size: 36px;
+        font-family: sans-serif;
+        font-size: 24px;
+        margin-right: 10px;
         margin-top: 80px;
-        text-shadow: 1px 10px 2px black, 0 0 1em rgb(255, 255, 255);
+        text-shadow: 1px 10px 2px black, 0 0 5px rgb(218, 213, 213);
         border: 0px;
+        margin-bottom: 20px;
+        border-top: 1px solid white;
         
     }
     .i1 {
