@@ -120,6 +120,7 @@ body {
     font-family: fantasy;
     margin-top: 10px;
     font-size: 24px;
+    margin-bottom: 20px;
   }
 
 
@@ -230,6 +231,61 @@ use {
   position: fixed;
   z-index: -1;
   top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.video-thumbnail {
+  
+  cursor: pointer;
+ 
+}
+/* Стиль для модального фона */
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+/* Стиль для модального контента */
+.modal-content {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* Кнопка закрытия */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+/* YouTube iframe */
+iframe {
+  width: 100%;
+  height: 450px;
+ 
 }
 }
 
@@ -487,4 +543,60 @@ use {
         text-align: center;
 
       }
+      
+
+
+
+
+
+
+
+
+
+
+      .video-thumbnail {
+  
+        cursor: pointer;
+       
+      }
+      /* Стиль для модального фона */
+      .modal {
+        display: none; /* Скрыто по умолчанию */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+      }
+      /* Стиль для модального контента */
+      .modal-content {
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      /* Кнопка закрытия */
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        cursor: pointer;
+      }
+      /* YouTube iframe */
+      iframe {
+        width: 100%;
+        height: 450px;
+       
+      }
+      
 }

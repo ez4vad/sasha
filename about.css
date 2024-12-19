@@ -30,18 +30,23 @@ body {
     height: 140px;
     margin-top: 10px;
     border: 2px solid white;
-    box-shadow: 1px 1px 20px 1px #9d9c9c;
+    box-shadow: 1px 1px 5px 1px #9d9c9c;
     border: 0.1px solid #ffffff;
+    text-align: center;
+    margin-left: 35px;
 }
 .sasha_name {
     color: white;
-    font-family: fantasy;
+    font-family: sans-serif;
+    margin-left: 35px;
 }
 .sasha_v {
     color: white;
-    font-family: fantasy;
+    font-family: sans-serif;
     text-align: center;
+
 }
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -112,14 +117,14 @@ svg {
     align-items: center;
   }
 .sasha_photo {
-    width: 500px;
+    width: 550px;
     height: 800px;
     position: relative;
     transform: translateY();
     animation-name: Appearance;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.1,-.6,.2,0);
-    box-shadow: 1px 1px 20px 1px #2196F3;
+   
 }
 .main_text {
     max-width: 500px;
@@ -186,7 +191,7 @@ svg {
   .animated-text:hover::after {
     width: 100%;
   }
-
+  
 }
 
 

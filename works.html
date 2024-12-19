@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="works.css" />
   </head>
   <body>
-    <div id="app">
-      <div id="hero">
+    <!-- <div id="app">
+      <div id="hero"> -->
         <header>
           <div class="header_wrapper">
             <div class="content">
@@ -51,7 +51,7 @@
                 >
               </li>
               <li class="link2">
-                <a href=""><p class="nav_links animated-text">REVIEWS</p></a>
+                <a href="fotos.html"><p class="nav_links animated-text">FOTOS</p></a>
               </li>
             </ul>
           </nav>
@@ -59,34 +59,52 @@
         <main>
           <p class="main_title">SELECTED WORK</p>
           <div class="main_wrapper">
-            <a href="./fotos/porsche.mp4" class="content1" target="_blank"
-              ><div class="content1">
+            <div class="content1 video-thumbnail" data-video-id="3JZ_D3ELwOQ">
                 <img src="./fotos/porshe.png" alt="" class="main_photo" />
                 <p class="main_text">Porsche</p>
-              </div></a
-            >
-            <a href="./fotos/tatto.mp4" class="content" target="_blank"
-              ><div class="content">
+              </div>
+            
+            <div class="content video-thumbnail" data-video-id="3JZ_D3ELwOQ">
                 <img src="./fotos/tatto.png" alt="" class="main_photo" />
                 <p class="main_text">Tatto Artist</p>
-              </div></a
-            >
-            <a
-              href="./fotos/PROJEXT BMW M3_1.mp4"
-              class="content"
-              target="_blank"
-            >
-              <div class="content">
+              </div>
+
+              <div class="content video-thumbnail" data-video-id="3JZ_D3ELwOQ">
                 <img src="./fotos/bmw.png" alt="" class="main_photo" />
                 <p class="main_text">BMW M3</p>
-              </div></a
+              </div>
+
+              <div class="content2 video-thumbnail" data-video-id="3JZ_D3ELwOQ">
+                <img src="./fotos/motof.png" alt="" class="main_photo" />
+                <p class="main_text">Motorcycle</p></div
             >
-            <a href="" class="content2"
-              ><div class="content2">
-                <img src="./fotos/porshe.png" alt="" class="main_photo" />
-                <p class="main_text"></p></div
-            ></a>
           </div>
+          <div class="main_wrapper">
+            <div class="content1 video-thumbnail" data-video-id="3JZ_D3ELwOQ">
+                <img src="./fotos/lrf.png" alt="" class="main_photo" />
+                <p class="main_text">LR Health</p>
+              </div>
+           <div class="content video-thumbnail" data-video-id="3JZ_D3ELwOQ">
+                <img src="./fotos/kazan.png" alt="" class="main_photo" />
+                <p class="main_text">Mr._Kazan</p>
+              </div>
+            
+              <div class="content video-thumbnail" data-video-id="3JZ_D3ELwOQ">
+                <img src="./fotos/mersf.png" alt="" class="main_photo" />
+                <p class="main_text">Mersedes
+                </p>
+              </div>
+           <div class="content2 video-thumbnail" data-video-id="3JZ_D3ELwOQ">
+                <img src="./fotos/bmwef.png" alt="" class="main_photo" />
+                <p class="main_text">BMW</p></div
+            >
+          </div>
+          <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <iframe id="youtubeVideo" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
         </main>
         <footer>
           <div class="footer_wrapper">
@@ -123,9 +141,8 @@
               </ul>
             </div>
           </div>
-        </footer>
-      </div>
-    </div>
+        </footer>    
     <script type="module" src="cursor.js"></script>
+    <script type="module" src="modal.js"></script>
   </body>
 </html>
