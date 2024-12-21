@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +65,7 @@ a {
         text-align: center;
         margin-top: 80px;
         font-size: 24px;
-        font-family: fantasy;
+        font-family: karla;
         text-shadow: 1px 8px 1px rgba(255, 0, 0, 0.259);
         margin-bottom: 80px;
         color: #ffffff;
@@ -87,12 +91,15 @@ body {
 }
 .sasha_name {
     color: white;
-    font-family: fantasy;
+    font-family: inconsolata;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 .sasha_v {
     color: white;
-    font-family: fantasy;
+    font-family: inconsolata;
     text-align: center;
+    border-bottom: 1px solid white;
 }
 .navigation {
     display: flex;
@@ -108,7 +115,7 @@ body {
 }
 .nav_links {
     color: white;
-    font-family: sans-serif;
+    font-family: karla;
     font-size: 24px;
 }
 .nav_links:hover {
@@ -138,7 +145,7 @@ use {
 .footer_contact {
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: inconsolata;
     font-size: 24px;
     margin-right: 10px;
     margin-top: 80px;
@@ -276,7 +283,7 @@ iframe {
         text-align: center;
         margin-top: 80px;
         font-size: 24px;
-        font-family: fantasy;
+        font-family: inconsolata;
         text-shadow: 1px 8px 1px rgba(255, 0, 0, 0.259);
         margin-bottom: 80px;
         color: white;
@@ -298,12 +305,15 @@ iframe {
     }
     .sasha_name {
         color: white;
-        font-family: fantasy;
+        font-family: inconsolata;
+        margin-left: 40px;
+        margin-top: 20px;
     }
     .sasha_v {
         color: white;
-        font-family: fantasy;
-        text-align: center;
+        font-family: inconsolata;
+    text-align: center;
+    border-bottom: 1px solid white;
     }
     .navigation {
         display: flex;
@@ -319,7 +329,7 @@ iframe {
     }
     .nav_links {
         color: white;
-        font-family: sans-serif;
+        font-family: karla;
         font-size: 24px;
     }
     .nav_links:hover {
@@ -349,7 +359,7 @@ iframe {
     .footer_contact {
         color: white;
         text-align: center;
-        font-family: fantasy;
+        font-family: inconsolata;
         margin-top: 80px;
         font-size: 24px;
         text-shadow: 1px 10px 2px black, 0 0 5px rgb(218, 213, 213);
