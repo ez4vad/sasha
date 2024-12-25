@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "git-filter-repo": "^0.0.30",
+    "leaflet": "^1.9.4",
     "swiper": "^11.1.15"
   }
 }
