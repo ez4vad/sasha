@@ -1,83 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="about.css">
-</head>
-<body>
-    <header>
-        <div class="header_wrapper">
-            <div class="content">
-                <a href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo" target="_blank">
-                <p class="sasha_name">Alexandr Tretyakov</p>
-                <p class="sasha_v">Videographer/content creator <br> cameraman</p>
-                </a>
-            </div>
-        </div>
-        <nav class="navigation">
-            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-            <label for="burger-checkbox" class="burger"></label>
-            <ul class="links navigation_links">
-                <li class="link"><a href="index.html"><p class="nav_links animated-text">HOME</p></a></li>
-                <li class="link"><a href="about.html"><p class="nav_links" style="border-bottom: 2px solid white;">ABOUT</p></a></li>
-                <li class="link"><a href="works.html"><p class="nav_links animated-text">WORKS</p></a></li>
-                <li class="link2"><a href="fotos.html"><p class="nav_links animated-text">FOTOS</p></a></li>
+    <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <div class="form_wrapper">
+      <div class="form">
+        <p class="form_title">GET IN TOUCH</p>
+        <div class="qq">
+        <div class="form_el_wrapper">
+          <div class="form_text">
+            <ul class="form_sasha">
+                <li class="form_info">
+                    <img src="./form/Instagram Icon (2).png" alt="" class="form_logo">
+            <a href="" class="form_logo_text">tretiakov_production</a>
+                </li>
+                <li class="form_info">
+                    <img src="./form/Phone Icon 352510.png" alt="" class="form_logo">
+            <p class="form_logo_text">0151726945266</p>
+                </li>
+                <li class="form_info">
+                    <img src="./form/Iconfinder Editor Icon.png" alt="" class="form_logo">
+            <p class="form_logo_text2">Bremen,Deutschland</p>
+                </li>
             </ul>
-        </nav>
+        </div>
+        
+        <div class="form_el_wrapper">
+          <div class="form_inputs">
+            <div class="inputs">
+            
+            <input type="text" placeholder="Name Lastname" id="input_name" class="form_input" />
+        </div>
+        <div class="inputs">
+            
+            <input type="email" placeholder="Email" id="input_email" />
+        </div>
+            <div class="inputs">
+            
+            <input type="text" placeholder="Text" id="input_text" />
+        </div>
+        <button class="button">Submit</button>
+          </div>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+    <header>
+      <div class="header_wrapper">
+        <div class="content">
+          <a
+            href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo"
+            target="_blank"
+          >
+            <p class="sasha_name">Alexandr Tretyakov</p>
+            <p class="sasha_v">
+              Videographer/content creator <br />
+              cameraman
+            </p>
+          </a>
+        </div>
+      </div>
+      <nav class="navigation">
+        <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+        <label for="burger-checkbox" class="burger"></label>
+        <ul class="links navigation_links">
+          <li class="link">
+            <a href="index.html"><p class="nav_links animated-text">HOME</p></a>
+          </li>
+          <li class="link">
+            <a href="about.html"
+              ><p class="nav_links" style="border-bottom: 2px solid white">
+                ABOUT
+              </p></a
+            >
+          </li>
+          <li class="link">
+            <a href="works.html"
+              ><p class="nav_links animated-text">WORKS</p></a
+            >
+          </li>
+          <li class="link2">
+            <a href="fotos.html"
+              ><p class="nav_links animated-text">FOTOS</p></a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="main_wrapper">
-            <div class="text">
-                <h1 class="title">Capturing moments, creating history </h1>
-                <p class="main_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi qui nobis obcaecati error. Provident maxime nihil mollitia. Nihilrum temporibus suscipit?</p>
-                <ul class="footer_links">
-                    <li class="footer_link"><a href="" target="_blank">
-                        <svg class="ii1">
-                            <use xlink:href="./fotos/email.svg#email"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer_link"><a href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo" target="_blank">
-                        <svg class="ii2">
-                            <use xlink:href="./fotos/inst.svg#inst"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer_link"><a href="https://www.tiktok.com/@tretiakov_production?_t=8s6cWEUKdGQ&_r=1" target="_blank">
-                        <svg class="ii3">
-                            <use xlink:href="./fotos/tt.svg#tt" class="i3"></use>
-                        </svg>
-                    </a></li>
-                </ul>
-            </div>
-            <div class="photo">
-                <img src="./fotos/sashaabout.jpg" alt="" class="sasha_photo">
-            </div>
+      <div class="main_wrapper">
+        <div class="ss">
+          <div class="text">
+            <h1 class="title">Capturing moments, creating history</h1>
+            <p class="main_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              qui nobis obcaecati error. Provident maxime nihil mollitia.
+              Nihilrum temporibus suscipit?
+            </p>
+            <ul class="footer_links">
+              <li class="footer_link">
+                <a href="" target="_blank">
+                  <svg class="ii1">
+                    <use xlink:href="./fotos/email.svg#email"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer_link">
+                <a
+                  href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo"
+                  target="_blank"
+                >
+                  <svg class="ii2">
+                    <use xlink:href="./fotos/inst.svg#inst"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer_link">
+                <a
+                  href="https://www.tiktok.com/@tretiakov_production?_t=8s6cWEUKdGQ&_r=1"
+                  target="_blank"
+                >
+                  <svg class="ii3">
+                    <use xlink:href="./fotos/tt.svg#tt" class="i3"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="photo">
+          <img src="./fotos/sashaabout.jpg" alt="" class="sasha_photo" />
+        </div>
+      </div>
+      <div id="map"></div>
     </main>
     <footer>
-        <div class="footer_wrapper">
-            <div class="footer_content">
-                <p class="footer_contact">CONTACTS</p>
-                <ul class="footer_links">
-                    <li class="footer_link"><a href="" target="_blank">
-                        <svg class="i1">
-                            <use xlink:href="./fotos/email.svg#email"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer_link"><a href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo" target="_blank">
-                        <svg class="i2">
-                            <use xlink:href="./fotos/inst.svg#inst"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer_link"><a href="https://www.tiktok.com/@tretiakov_production?_t=8s6cWEUKdGQ&_r=1" target="_blank">
-                        <svg class="i3">
-                            <use xlink:href="./fotos/tt.svg#tt" class="i3"></use>
-                        </svg>
-                    </a></li>
-                </ul>
-            </div>
+      <div class="footer_wrapper">
+        <div class="footer_content">
+          <p class="footer_contact">CONTACTS</p>
+          <ul class="footer_links">
+            <li class="footer_link">
+              <a href="" target="_blank">
+                <svg class="i1">
+                  <use xlink:href="./fotos/email.svg#email"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_link">
+              <a
+                href="https://www.instagram.com/tretiakov_production?igsh=b2NtbzgyZzBucDlo"
+                target="_blank"
+              >
+                <svg class="i2">
+                  <use xlink:href="./fotos/inst.svg#inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_link">
+              <a
+                href="https://www.tiktok.com/@tretiakov_production?_t=8s6cWEUKdGQ&_r=1"
+                target="_blank"
+              >
+                <svg class="i3">
+                  <use xlink:href="./fotos/tt.svg#tt" class="i3"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </footer>
-</body>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="map.js"></script>
+  </body>
 </html>
