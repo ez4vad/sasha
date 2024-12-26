@@ -14,6 +14,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 19
 }).addTo(map);
 
+map.scrollWheelZoom.disable();
+
 var marker = L.marker([53.0752, 8.80777],
     {alt: 'Bremen'}).addTo(map) // "Kyiv" is the accessible name of this marker
     .bindPopup("mcdsklncklsncskl");
