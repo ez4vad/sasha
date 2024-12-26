@@ -390,6 +390,7 @@ use {
       .burger::after {
         bottom: 0;
         transition: bottom .3s .15s, transform .3s;
+        z-index: 1000;
       }
       .burger-checkbox:checked + .burger::before {
         top: 11px;
